@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "sh deploy.sh",
     "build": "node index.js",
     "dev:server": "http-server ./build -a localhost -o -c-1 --no-dotfiles -p 8080",
     "template:server": "http-server ./../theme/HTML -a localhost -o -c-1 --no-dotfiles -p 8081"
