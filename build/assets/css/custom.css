@@ -1,0 +1,35 @@
+.youtube-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.text-black {
+    color: #000 !important
+}
+
+.text-white {
+    color: #fff !important
+}
+
+.share-black {
+    color: #000;
+}
+
+.share-black .jssocials-share-link {
+    color: #000;
+}
+
+#hero.has-image {
+    z-index: 99 !important;
+}
+
+#hero-image-wrapper {
+    z-index: 98 !important;
+}
+
+.wiki-source {
+    font-size: 0.7em;
+}

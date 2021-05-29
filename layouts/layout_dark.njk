@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+{% include "./partials/head.njk" %}
+<body class="hidden hidden-ball" data-primary-color="#ff0000">	
+  <main>    
+    {% include "./partials/preloader.njk" %}
+  
+    <div class="cd-index cd-main-content">
+      <!-- Page Content -->
+      <div id="page-content" class="light-content" data-bgcolor="#171717">
+
+      {% include "./partials/header.njk" %}
+
+        <!-- Content Scroll -->
+        <div id="content-scroll">
+          <!-- Main -->
+          <div id="main">
+            {{ contents | safe }}
+          </div>
+          <!--/Main -->
+
+          <!-- Footer -->
+          {% include "./partials/footer.njk" %}
+          <!--/Footer -->
+        </div>
+        <!--/Content Scroll -->
+
+        <div id="app"></div>
+      </div>
+      <!--/Page Content -->
+    </div>
+  </main>
+
+  {% include "./partials/rest.njk" %}
+  {% include "./partials/scripts.njk" %}  
+</body>
+</html>
