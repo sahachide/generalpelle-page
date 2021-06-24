@@ -3,7 +3,7 @@
 set -e
 npm run build
 cd build
-#echo 'demo.ch' > CNAME
+echo 'modellbau-pelle.ch' > CNAME
 git init
 git add -A
 git commit -m 'deploy'
